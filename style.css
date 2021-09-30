@@ -17,6 +17,39 @@ body {
     align-items: center;
 }
 
+.title1 {
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    padding-bottom: 1rem;
+}
+
+.title2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    line-height: 1.3em;
+    padding: 1.5rem 0;
+}
+
+.description {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    font-weight: 200;
+    line-height: 1.4rem;
+}
+
+.button {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30rem;
+    padding: 1rem 3rem 1rem 3rem;
+    margin-bottom: 2rem;
+}
+
 .button:hover {
     cursor: pointer;
 }
@@ -27,6 +60,7 @@ nav {
     margin-top: 0;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 .nav-container {
@@ -90,43 +124,17 @@ nav {
     flex-basis: 50%;
     display: flex;
     flex-wrap: wrap;
-}
-
-#section1 .title1 {
-    padding-top: 0.15em;
-    font-size: 0.85rem;
-    font-weight: 800;
-}
-
-#section1 .title2 {
-    font-size: 3.6rem;
-    font-weight: 700;
-    letter-spacing: -0.05em;
-    line-height: 1.3em;
-}
-
-#section1 .description {
-    font-size: 1rem;
-    font-weight: 200;
+    align-content: flex-start;
 }
 
 #section1 .note {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-weight: 200;
 }
 
 #section1 .button {
     color: white;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 0.2em;
-    font-size: 0.9rem;
-    font-weight: bold;
     background-color: black;
-    border: none;
-    border-radius: 30rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
-    margin-bottom: 2rem;
 }
 
  /* sec2 */
@@ -173,42 +181,19 @@ transform: translate(-50%, -50%);
 
 #section2 .text {
     color: #a5ffef;
-    height: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     flex-basis: 50%;
-}
-
-#section2 .title1 {
-font-size: 0.9rem;
-padding-bottom: 2rem;
-}
-
-#section2 .title2 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    letter-spacing: -0.05em;
-    padding: 0 0 1rem;
-}
-
-#section2 .description {
-    font-size: 1rem;
-    padding-bottom: 2.5rem;
+    height: 320px;
 }
 
 #section2 .button {
     color: #cb1582;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 0.2em;
-    font-size: 0.9rem;
     background-color: #a5ffef;
-    border: none;
-    border-radius: 30rem;
-    padding: 1rem 3rem 1rem 3rem;
-    margin-bottom: 2rem;
 }
 
+/* sec3 */
 #section3 {
     padding-top: 80px;
     background-image: url(/images/LiE_circles.svg);
@@ -219,3 +204,16 @@ padding-bottom: 2rem;
     background-repeat: no-repeat;
     min-height: 606px;
   }
+
+  #section3 .text {
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 40%;
+}
+
+#section3 .button {
+    background-color: #1ed760;
+    color: #2d46b9;
+}
