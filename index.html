@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav style="background-color: black; color: white; height: 80px;">
         <div class="nav-container">
-        <img src="./images/logo.png" alt="logo" width="130"/>
+        <img class="logo" src="./images/logo.png" alt="logo" width="130"/>
           <div class="links">
             <a href="https://www.spotify.com/us/premium/">Premium</a>
             <a href="https://support.spotify.com/us/?_ga=2.223364827.1743123756.1632992485-698072478.1632755104">Support</a>
@@ -37,7 +38,7 @@
                   <div class="description">
                     Enjoy ad-free music, offline listening, and more. Cancel anytime.
                   </div>
-                  <button class="button">GET 3 MONTHS FREE</button>
+                  <button class="button" onclick="logIn()">GET 3 MONTHS FREE</button>
                   <div class="note">
                     Individual plan only. Only $9.99/month after. Offer not available to
                     users who already tried Premium. Terms and conditions apply. Offer ends
@@ -63,7 +64,7 @@
                   <div class="description">
                     Find out the artists, songs, and podcasts that got you through the longest year ever.
                   </div>
-                  <button class="button">EXPLORE YOUR WRAPPED</button>
+                  <button class="button" onclick="logIn()">EXPLORE YOUR WRAPPED</button>
                 </div>
 
             </div>

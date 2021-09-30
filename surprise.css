@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+#arrow {
+    transform: rotate(20deg);
+    position: absolute;
+    bottom: 300px;
+    right: 380px;
+}
+
+#splatter {
+    position: absolute;
+    bottom: 45px;
+    right: 130px;
+}
+
+button {
+    padding: 5px 5px 2px 5px;
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    bottom: 220px;
+    right: 250px;
+    background-color: transparent;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 50%;
+    box-shadow: 2px 4px 8px 10px black;
+}

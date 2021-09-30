@@ -17,6 +17,10 @@ body {
     align-items: center;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
  /* nav */
 nav {
     width: 100%;
@@ -60,18 +64,13 @@ nav {
     font-weight: 100;
     margin-left: 30px;
 }
- /*
-.sticky {
-
-}
-*/
 
  /* sec1 */
 #section1 {
     margin: 0 auto;
     min-height: 70vh;
     width: 100vw;
-    padding-top: 80px;
+    padding-top: 160px;
     padding-bottom: 80px;
     background-color: #ff4632;
 }
@@ -136,8 +135,8 @@ nav {
     min-height: 606px;
     width: 100vw;
     background-color: #cb1582;
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 120px;
+    padding-bottom: 80px;
 }
 
 #section2 .content {
@@ -155,15 +154,16 @@ nav {
 }
 
 #front {
-height: 414px;
-width: 404px;
+height: 404px;
+width: 417px;
 color: #cb1582;
 background-color: #a5ffef;
 display: flex;
 align-items: flex-end;
-padding: 30px;
-font-size: 4rem;
-font-weight: bold;
+padding: 40px;
+font-size: 3.8rem;
+font-weight: bolder;
+line-height: 5rem;
 z-index: 1;
 position: absolute;
 top: 50%;
@@ -187,6 +187,7 @@ padding-bottom: 2rem;
 
 #section2 .title2 {
     font-size: 3.5rem;
+    font-weight: bold;
     letter-spacing: -0.05em;
     padding: 0 0 1rem;
 }
@@ -207,3 +208,14 @@ padding-bottom: 2rem;
     padding: 1rem 3rem 1rem 3rem;
     margin-bottom: 2rem;
 }
+
+#section3 {
+    padding-top: 80px;
+    background-image: url(/images/LiE_circles.svg);
+    background-size: auto 100%;
+    color: #1ed760;
+    background-color: #2d46b9;
+    background-position: right center;
+    background-repeat: no-repeat;
+    min-height: 606px;
+  }
