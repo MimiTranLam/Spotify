@@ -9,13 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <script type="text/javascript" src="main.js"></script>
+    <script src="https://kit.fontawesome.com/27d29ffcb6.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav style="background-color: black; color: white; height: 80px;">
         <div class="nav-container">
-        <img class="logo" src="./images/logo.png" alt="logo" width="130"/>
+          <button id="logo" onclick="home()"><img class="logo" src="./images/logo.png" alt="logo" width="130"/></button>
           <div class="links">
             <a href="https://www.spotify.com/us/premium/">Premium</a>
             <a href="https://support.spotify.com/us/?_ga=2.223364827.1743123756.1632992485-698072478.1632755104">Support</a>
@@ -38,7 +39,7 @@
                   <div class="description">
                     Enjoy ad-free music, offline listening, and more. Cancel anytime.
                   </div>
-                  <button class="button" onclick="logIn()">GET 3 MONTHS FREE</button>
+                  <button class="button" onclick="surprise()">GET 3 MONTHS FREE</button>
                   <div class="note">
                     Individual plan only. Only $9.99/month after. Offer not available to
                     users who already tried Premium. Terms and conditions apply. Offer ends
@@ -64,7 +65,7 @@
                   <div class="description">
                     Find out the artists, songs, and podcasts that got you through the longest year ever.
                   </div>
-                  <button class="button" onclick="logIn()">EXPLORE YOUR WRAPPED</button>
+                  <button class="button" onclick="surprise()">EXPLORE YOUR WRAPPED</button>
                 </div>
 
             </div>
@@ -80,7 +81,7 @@
               <div class="description">
                 Millions of songs and podcasts. No credit card needed.
               </div>
-              <button class="button" onclick="logIn()">GET SPOTIFY FREE</button>
+              <button class="button" onclick="surprise()">GET SPOTIFY FREE</button>
             </div>
           </div>
         </div>
@@ -89,7 +90,60 @@
     </main>
 
       <footer>
-        <div class="container"></div>
+
+          <div class="f-container">
+            <div class="footer-left">
+              <div class="col-left">
+                <img src="images/logo.png" width="130" />
+              </div>
+
+              <div class="mid-cols">
+                <div class="col-title">Company</div>
+                <a href="#">About</a>
+                <a href="#">Jobs</a>
+                <a href="#">For the Record</a>
+              </div>
+
+              <div class="mid-cols">
+                <div class="col-title">Communities</div>
+                <a href="#">For Artists</a>
+                <a href="#">Developers</a>
+                <a href="#">Brands</a>
+                <a href="#">Investors</a>
+                <a href="#">Vendors</a>
+              </div>
+
+              <div class="mid-cols">
+                <div class="col-title">Useful Links</div>
+                <a href="#">Support</a>
+                <a href="#">Web Player</a>
+                <a href="#">Free Mobile App</a>
+                <a href="#">2020 Wrapped</a>
+              </div>
+            </div>
+
+            <div class="col-right">
+              <a class="ig-icon" href="https://www.instagram.com/spotify/"><i class="fab fa-instagram"></i></a>
+              <a class="t-icon" href="https://twitter.com/spotify"><i class="fab fa-twitter"></i></a>
+              <a class="fb-icon" href="https://www.facebook.com/SpotifyVietnam/?brand_redir=6243987495"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            </div>
+
+            <div class="row2">USA <img src="images/usa.jpg" width="30" /></div>
+          
+            <div class="row3">
+              <div class="row3-1">
+                <a href="#">Legal</a>
+                <a href="#">Privacy Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">About Ads</a>
+                <a href="#">Additional CA Privacy Disclosures</a>
+              </div>
+  
+              <div id="row3-2">© 2020 Spotify AB</div>
+            </div>
+
       </footer>
 
 </body>
