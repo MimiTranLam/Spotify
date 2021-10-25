@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
 
 .title1 {
@@ -218,7 +218,7 @@ transform: translate(-50%, -50%);
 /* sec3 */
 #section3 {
     padding-top: 80px;
-    background-image: url(/images/LiE_circles.svg);
+    background-image: url(./images/LiE_circles.svg);
     background-size: auto 100%;
     color: #1ed760;
     background-color: #2d46b9;
@@ -310,7 +310,7 @@ a {
 .ig-icon {
     font-size: 2rem;
     background-color: #222326;
-    padding: 5px 12px;
+    padding: 6px 12px;
     border-radius: 50%;
 }
 
@@ -324,7 +324,7 @@ a {
 .fb-icon {
     font-size: 1.5rem;
     background-color: #222326;
-    padding: 10px 18px 5px 18px;
+    padding: 11px 18px;
     border-radius: 50%;
 }
 
